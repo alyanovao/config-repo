@@ -32,6 +32,5 @@ spring:
 
 info:
   app:
-    #version: {project.version}
     author: aao
     description: application with metrics
