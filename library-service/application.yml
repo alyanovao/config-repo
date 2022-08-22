@@ -24,7 +24,10 @@ management:
 
 spring:
   datasource:
-    url: jdbc:h2:mem:h2db
+    url: jdbc:postgresql://localhost:5432/db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
   flyway:
     locations: db/migration
   jpa:
